@@ -1,12 +1,17 @@
 #!/bin/bash
 
 
-mkdir five
+# mkdir five
 
+
+# for i in {1..5}; do
+#     mkdir five/dir$i
+
+# mkdir test_area/five
+mkdir -p ./five
 
 for i in {1..5}; do
-    mkdir five/dir$i
-    
+    mkdir -p ./five/dir$i    
 
     for j in {1..4}; do
 
